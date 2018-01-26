@@ -31,3 +31,13 @@ Acceptance Criteria:
 - There should be an initial set of tasks loaded.
 - I should be able to run the app in the browser and create a new or edit existing tasks from the calendar.
 - I should be able to run the app using npm run script commands without using any task runners like gulp or grunt.
+
+==============================================================
+
+Container URL's:
+container/calendar - loads the main view containing the react app.
+container/api/calendarapi - it returns the initial react data in json format.
+
+VS structure:
+React app is contained in the following path:
+- DeluxeApp\wwwroot\Scripts\react
