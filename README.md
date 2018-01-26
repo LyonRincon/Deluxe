@@ -35,9 +35,10 @@ Acceptance Criteria:
 ==============================================================
 
 Container URL's:
-container/calendar - loads the main view containing the react app.
-container/api/calendarapi - it returns the initial react data in json format.
+
+- container/calendar - loads the main view containing the react app.
+- container/api/calendarapi - it returns the initial react data in json format.
 
 VS structure:
-React app is contained in the following path:
-- DeluxeApp\wwwroot\Scripts\react
+- React app is contained in the following path:
+	- DeluxeApp\wwwroot\Scripts\react
