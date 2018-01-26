@@ -1,9 +1,0 @@
-const LOAD_INITIAL_DATA = 'LOAD_INITIAL_DATA';
-const SELECT_DATE = 'SELECT_DATE';
-const ADD_TASK = 'ADD_TASK';
-
-export {
-    LOAD_INITIAL_DATA,
-    SELECT_DATE,
-    ADD_TASK
-};
