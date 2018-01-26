@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  deluxeapp:
+    image: deluxeapp
+    build:
+      context: ./DeluxeApp
+      dockerfile: Dockerfile
