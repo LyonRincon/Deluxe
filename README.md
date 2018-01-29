@@ -42,3 +42,15 @@ Container URL's:
 VS structure:
 - React app is contained in the following path:
 	- DeluxeApp\wwwroot\Scripts\react
+
+===============================================================
+
+Update 2018-01-29
+
+- React bundle created using webpack: npm run webpack
+- New standalone node solution in Deluxe\Node\react.
+- Clone the repository, open cmd in the above directory and run this commands to open solution locally in port 8082:
+	- docker build -t calendar-app .
+	- docker run -p 8082:8081 calendar-app
+- Open browser in http://localhost:8082/
+
